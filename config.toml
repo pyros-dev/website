@@ -12,7 +12,7 @@ theme = "elate"
   # Meta
   author = "XorfacX"
   description = ""
-  email = "dev@yros.info"
+  email = "devs@pyros.info"
   # Navigation
   [params.navigation]
     brand = "Pyros"
