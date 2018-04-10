@@ -268,7 +268,7 @@ theme = "elate"
   # Contact section
   [params.contact]
     enable = true
-    add = false
+    address = false
     map = false
     form = true
     title = "Get in touch"

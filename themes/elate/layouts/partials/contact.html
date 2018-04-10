@@ -10,7 +10,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="row row-bottom-padded-md">
+			<div class="row row-bottom-padded-md">			    
+				{{ if .Site.Params.contact.address }}
 				<div class="col-md-6 to-animate">
 					<h3>{{ with .Site.Params.contact.info }}{{ . | markdownify }}{{ end }}</h3>
 					<ul class="fh5co-contact-info">
@@ -18,7 +19,8 @@
 						<li class="fh5co-contact-address "><i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index . 1}}{{ . | markdownify }}{{ end }}</li>
 					{{ end }}
 					</ul>
-				</div>
+				</div>				
+				{{ end }}
 				{{ if .Site.Params.contact.form }}
 				<div class="col-md-6 to-animate">
 					<form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
