@@ -16,8 +16,8 @@ theme = "elate"
   # Navigation
   [params.navigation]
     brand = "Pyros"
-    home = "Home"
-    work = "Work"
+    home = "What"
+    work = "How"
     testimonials = "Testimonials"
     services = "Services"
     about = "About"
@@ -40,62 +40,97 @@ theme = "elate"
   
   # Hero section
   [params.hero]
-    title = "Do something you love."
-    subtitle = 'Subtitles TO Set ?'
+    title = "A software layer on top of the ROS framework"
+    subtitle = 'interface your ROS systems with anything and everything!'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "What"
-    description = "Pyros is a software layer on top of the ROS framework, allowing you to interface your ROS systems with: <ul><li>standard python dev dynamic workflow (no generation, compilation time wasted)</li><li>standard python packages, potentially leveraging NNNNN existing packages on PyPI</li><li>any existing Cloud REST Services (via HTTP)</li><li>any existing Frontend Application and GUI (via HTTP)</li><li>any existing IoT infrastructure (via MQTT, RIOT, etc.)</li></ul>"
+    title = ""
+    description = "A standard python dev dynamic workflow => no generation, compilation time wasted)"
     url = "#"
-    button = "Get In Touch"
+    button = ""
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+    
+  [[params.intro.item]]
+    title = ""
+    description = "Standard python packages, potentially leveraging NNNNN existing packages on PyPI"
+    url = "#"
+    button = ""
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+    
+  [[params.intro.item]]
+    title = ""
+    description = "Any existing Cloud REST Services (via HTTP)"
+    url = "#"
+    button = ""
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+    
+  [[params.intro.item]]
+    title = ""
+    description = "Any existing Frontend Application and GUI (via HTTP)"
+    url = "#"
+    button = ""
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+    
+  [[params.intro.item]]
+    title = ""
+    description = "Any existing IoT infrastructure (via MQTT, RIOT, etc.)"
+    url = "#"
+    button = ""
     icon = "icon-bulb"
     img = "img_7.jpg"
 
-  [[params.intro.item]]
-    title = "How"
-    description = "Pyros is a distributed framework, relying on standard protocols, so you can can come up with any distributed architecture that fit your needs: <ul><li>Robots accessing REST micro services on the cloud (like http://gocart.yujinrobot.com/ )</li><li>Controling and Monitoring remote robots (like https://flytbase.com/ )</li><li>Do your robot application development in a standard dynamic IDE (like PyCharm)</li><li>Controling a robot from a webapp on your mobile phone</li><li>and much more !</li></ul>"
-    url = "#"
-    button = "Details"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
 
-  [[params.intro.item]]
-    title = "THIRD STUFF?"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
-
-  #[params.intro.video]
-  #  enable = true
-  #  title = "Watch the video"
-  #  icon = "icon-play2"
-  #  url = "https://vimeo.com/channels/staffpicks/93951774"
+  [params.intro.video]
+    enable = true
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = "https://vimeo.com/channels/staffpicks/93951774"
 
 
   # Work section
   [params.work]
-    enable = false
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    enable = true
+    title = "How"
+    description = "Pyros is a distributed framework, relying on standard protocols, so you can can come up with any distributed architecture that fit your needs!"
+    footertext = ''
 
     [[params.work.row]]
       img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      alt = "archiREST"
+      title = "Robots accessing REST micro services on the cloud"
+      subtitle = "like http://gocart.yujinrobot.com/"
 
     [[params.work.row]]
       img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      alt = "archiMonitor"
+      title = "Controling and Monitoring remote robots"
+      subtitle = "like https://flytbase.com/"
+      
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "archiIDE"
+      title = "Do your robot application development in a standard dynamic IDE"
+      subtitle = "like PyCharm"
+      
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "archiMobile"
+      title = "Controling a robot from a webapp on your mobile phone"
+      subtitle = ""
+      
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "archiCustom"
+      title = "Custom architecture"
+      subtitle = "and much more !"
 
 
   # Testimonials section
@@ -233,6 +268,7 @@ theme = "elate"
   # Contact section
   [params.contact]
     enable = true
+    add = false
     map = false
     form = true
     title = "Get in touch"
