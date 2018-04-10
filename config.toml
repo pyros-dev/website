@@ -1,21 +1,21 @@
 # Page settings
 baseURL = "localhost:1313"
 #baseURL = "http://example.org/"
-title = "Elate theme"
+title = "Pyros Dev"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
 [params]
   
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["css/elateCustom.css"]
 
   # Meta
-  author = ""
+  author = "XorfacX"
   description = ""
-  email = ""
+  email = "dev@yros.info"
   # Navigation
   [params.navigation]
-    brand = "Elate"
+    brand = "Pyros"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
@@ -41,46 +41,46 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Do something you love."
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    subtitle = 'Subtitles TO Set ?'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "What"
+    description = "Pyros is a software layer on top of the ROS framework, allowing you to interface your ROS systems with: <ul><li>standard python dev dynamic workflow (no generation, compilation time wasted)</li><li>standard python packages, potentially leveraging NNNNN existing packages on PyPI</li><li>any existing Cloud REST Services (via HTTP)</li><li>any existing Frontend Application and GUI (via HTTP)</li><li>any existing IoT infrastructure (via MQTT, RIOT, etc.)</li></ul>"
     url = "#"
     button = "Get In Touch"
     icon = "icon-bulb"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "How"
+    description = "Pyros is a distributed framework, relying on standard protocols, so you can can come up with any distributed architecture that fit your needs: <ul><li>Robots accessing REST micro services on the cloud (like http://gocart.yujinrobot.com/ )</li><li>Controling and Monitoring remote robots (like https://flytbase.com/ )</li><li>Do your robot application development in a standard dynamic IDE (like PyCharm)</li><li>Controling a robot from a webapp on your mobile phone</li><li>and much more !</li></ul>"
     url = "#"
-    button = "Click Me"
+    button = "Details"
     icon = "icon-wrench"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
+    title = "THIRD STUFF?"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Why us?"
     icon = "icon-rocket"
     img = "img_10.jpg"
 
-  [params.intro.video]
-    enable = true
-    title = "Watch the video"
-    icon = "icon-play2"
-    url = "https://vimeo.com/channels/staffpicks/93951774"
+  #[params.intro.video]
+  #  enable = true
+  #  title = "Watch the video"
+  #  icon = "icon-play2"
+  #  url = "https://vimeo.com/channels/staffpicks/93951774"
 
 
   # Work section
   [params.work]
-    enable = true
+    enable = false
     title = "Work"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
@@ -97,33 +97,10 @@ theme = "hugo-elate-theme"
       title = "Project 2"
       subtitle = "Design"
 
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
 
   # Testimonials section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -150,7 +127,7 @@ theme = "hugo-elate-theme"
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -175,7 +152,7 @@ theme = "hugo-elate-theme"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -217,7 +194,7 @@ theme = "hugo-elate-theme"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -256,31 +233,30 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Looks interesting ? Want to know more ? Contact us !"
     
     # Available icons: http://simplelineicons.com/
-    details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
-      ]
+    #details = [
+    #    ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+    #    ["icon-phone", "(123) 465-6789"],
+    #    ["icon-envelope", "info@freehtml5.co"],
+    #    ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+    #  ]
 
     name = "Name"
     email = "Email"
-    phone = "Phone"
+    #phone = "Phone"
     message = "Message"
     button = "Send message"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; Pyros Dev'
     links = [
         ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-facebook", "#facebook"]
       ]
