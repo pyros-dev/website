@@ -28,3 +28,18 @@ body {
     vertical-align: middle;
     width: 40px; height: 40px;
 }
+
+#fh5co-home {
+    background-image: url('/images/FD1.jpg') !important;
+    background-color: transparent;
+}
+
+    #fh5co-home .gradient {
+        background-image: none;
+        background-color: transparent;
+    }
+    
+#fh5co-work {
+    background-color: transparent;
+    background-image: url('/images/FD2.jpg') !important;
+}
