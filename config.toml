@@ -40,8 +40,8 @@ theme = "elate"
   
   # Hero section
   [params.hero]
-    title = "A software layer on top of the ROS framework"
-    subtitle = 'interface your ROS systems with anything and everything!'
+    title = "Distributed Python Framework"
+    subtitle = 'Interface ROS, IoT and Web systems together, dynamically, in Python !'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -49,44 +49,51 @@ theme = "elate"
 
   [[params.intro.item]]
     title = ""
-    description = "A standard python dev dynamic workflow => no generation, compilation time wasted)"
-    url = "#"
+    description = "ROS1 Introduction"
+    url = "https://gitpitch.com/pyros-dev/ros1_template#/"
     button = ""
     icon = "icon-bulb"
     img = "img_7.jpg"
     
   [[params.intro.item]]
     title = ""
-    description = "Standard python packages, potentially leveraging NNNNN existing packages on PyPI"
-    url = "#"
+    description = "Catkin_pip : use existing python packages in ROS"
+    url = "http://catkin-pip.readthedocs.io/en/latest/"
     button = ""
     icon = "icon-bulb"
     img = "img_7.jpg"
     
   [[params.intro.item]]
     title = ""
-    description = "Any existing Cloud REST Services (via HTTP)"
-    url = "#"
+    description = "Rostful : a REST Interface for your ROS system"
+    url = "https://github.com/asmodehn/pyros-schemas"
     button = ""
     icon = "icon-bulb"
     img = "img_7.jpg"
     
   [[params.intro.item]]
     title = ""
-    description = "Any existing Frontend Application and GUI (via HTTP)"
-    url = "#"
+    description = "Pyros-schemas : Talk to a REST backend using ROS messages"
+    url = "https://github.com/pyros-dev/pyros-schemas"
     button = ""
     icon = "icon-bulb"
     img = "img_7.jpg"
     
   [[params.intro.item]]
     title = ""
-    description = "Any existing IoT infrastructure (via MQTT, RIOT, etc.)"
-    url = "#"
+    description = "Just import ROS msg files. The end of catkin."
+    url = "https://github.com/pyros-dev/rosimport"
     button = ""
     icon = "icon-bulb"
     img = "img_7.jpg"
 
+  [[params.intro.item]]
+    title = ""
+    description = "And more..."
+    url = "https://github.com/pyros-dev"
+    button = ""
+    icon = "icon-bulb"
+    img = "img_7.jpg"
 
   [params.intro.video]
     enable = true
@@ -99,7 +106,7 @@ theme = "elate"
   [params.work]
     enable = true
     title = "How"
-    description = "Pyros is a distributed framework, relying on standard protocols, so you can can come up with any distributed architecture that fit your needs!"
+    description = "Pyros is a distributed framework for small devices, relying on standard protocols. So you can can come up with any architecture that fit your needs!"
     footertext = ''
 
     [[params.work.row]]
